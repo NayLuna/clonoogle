@@ -1,0 +1,170 @@
+* {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Selector de etiqueta:
+
+Vamos a seleccionar el elemento 
+por su nombre y va a cambiar a 
+todos los que se llamen igual. */
+
+body {
+    /*background-image: url("/Imagenes/FONDO\ LIBROS.jpg");*/
+    background-image: url("Imagenes/FONDO.jpg");
+    background-color: darkolivegreen;
+    font-family: "Gill Sans", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/*Selector de clase:
+
+Nosotras vamos a elegir el nombre de la clase,
+y se la vamos a poner a las etiquetas por medio del atributo
+class="nombre-clase"
+
+Y le vamos a cambiar las propiedades a ese elemento
+llamandolos por el operador (simbolo) punto.
+
+*/
+
+.libro {
+    border: 5px solid #ffffff;
+    height: auto;
+}
+
+.inline {
+
+    display: inline;
+
+}
+
+.inline-block {
+
+    display: inline-block;
+
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+/*Selector de ID
+
+Selector de ID me ayudará a editar un elemento a la vez,
+es para cuando solo queremos hacer cambios a un elemento
+
+Va a cambiar la etiqueta con el atributo
+
+id="nombre-id"
+
+y vamos a llamar al elemento por el operador
+de numeral
+
+#nombre-id
+*/
+
+#logo {
+    width: 150 px
+}
+
+/*#navegación{
+    display: inline-block;
+
+} */
+/*Selector combinado
+
+aquí podemos filtrar por más de una opción
+
+*/
+
+#navegacion li {
+    display: inline;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 0px;
+    border: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+}
+
+header div ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px 10px 25px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 150px;
+    /* Espacio entre elementos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    /* Opcional, dependiendo de tu diseño */
+}
+
+main {
+    margin: 10px 10px 10px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.horizontal-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+.horizontal-list li {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.horizontal-list img {
+    display: block;
+    margin: 10px auto 0;
+    /* Centra la imagen horizontalmente y añade un margen superior */
+    max-width: 100px;
+    /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+}
+
+figure{
+    text-align: justify;
+}
